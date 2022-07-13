@@ -32,13 +32,13 @@ const { addPlayGame, getJawabanGame, isPlayGame, cekWaktuGame, getGamePosi } = r
 const hitnya = JSON.parse(fs.readFileSync('./database/hitToday.json'))
 const dash = JSON.parse(fs.readFileSync('./database/dashboard.json'))
 const spammer = []
-const sewa = JSON.parse(fs.readFileSync('./database/sewa.json'))
+const sewa = JSON.parse(fs.readFileSync('./Database/sewa.json'))
 const autosticker = JSON.parse(fs.readFileSync('./Database/autosticker.json'))
-let _cmdUser = JSON.parse(fs.readFileSync('./database/commandUser.json'));
-let listCmd = JSON.parse(fs.readFileSync('./database/listcmd.json'));
-let _cmd = JSON.parse(fs.readFileSync('./database/command.json'));
+let _cmdUser = JSON.parse(fs.readFileSync('./Database/commandUser.json'));
+let listCmd = JSON.parse(fs.readFileSync('./Database/listcmd.json'));
+let _cmd = JSON.parse(fs.readFileSync('./Database/command.json'));
 lang = global.language 
-let akinator = JSON.parse(fs.readFileSync('./database/akinator.json'));
+let akinator = JSON.parse(fs.readFileSync('./Database/akinator.json'));
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -52,7 +52,7 @@ let tebakkalimat = db.data.game.kalimat = []
 let tebaklirik = db.data.game.lirik = []
 let tebaktebakan = db.data.game.tebakan = []
 let vote = db.data.others.vote = []
-const user = JSON.parse(fs.readFileSync('./database/user.json'))
+const user = JSON.parse(fs.readFileSync('./Database/user.json'))
 
 //━━━━━━━━━━━━━━━[ DATABASE ]━━━━━━━━━━━━━━━━━//
 let { TelegraPh } = require('./lib/uploader')
