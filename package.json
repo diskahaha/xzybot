@@ -26,7 +26,6 @@
     "awesome-phonenumber": "^2.64.0",
     "axios": "^0.24.0",
     "spinnies": "latest",
-    "parse-ms": "latest",
     "cfonts": "latest",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
