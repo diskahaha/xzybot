@@ -35,6 +35,7 @@ const spammer = []
 const sewa = JSON.parse(fs.readFileSync('./Database/sewa.json'))
 const autosticker = JSON.parse(fs.readFileSync('./Database/autosticker.json'))
 let _cmdUser = JSON.parse(fs.readFileSync('./Database/commandUser.json'));
+const user = JSON.parse(fs.readFileSync('./Database/user.json'))
 let listCmd = JSON.parse(fs.readFileSync('./Database/listcmd.json'));
 let _cmd = JSON.parse(fs.readFileSync('./Database/command.json'));
 lang = global.language 
@@ -52,7 +53,6 @@ let tebakkalimat = db.data.game.kalimat = []
 let tebaklirik = db.data.game.lirik = []
 let tebaktebakan = db.data.game.tebakan = []
 let vote = db.data.others.vote = []
-const user = JSON.parse(fs.readFileSync('./Database/user.json'))
 
 //━━━━━━━━━━━━━━━[ DATABASE ]━━━━━━━━━━━━━━━━━//
 let { TelegraPh } = require('./lib/uploader')
