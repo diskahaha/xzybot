@@ -6935,7 +6935,7 @@ anu = ` *${week}, ${calender}*
  ➭ Mode : ${publik ? "Public" : "Self"}
  ➭ TotalUser: ${Object.keys(global.db.data.users).length}
  ➭ Total Feature : ${totalFitur()}
- ➭ Running On : *RDP*
+ ➭ Running On : *HEROKU*
 └───────⭓
 
 *OWNER*
